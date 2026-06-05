@@ -1,8 +1,8 @@
 # NekoGPT Engine Mate Bridge Plugin
 
-Optional plugin for connecting NekoGPT to Engine Mate as an external avatar.
+Optional plugin for connecting NekoGPT to Engine Mate.
 
-NekoGPT does not depend on Engine Mate. The bridge uses only `localhost`, a local pairing token, and WebSocket.
+The bridge uses only `localhost`, a local pairing token, and WebSocket.
 
 ## Install in NekoGPT
 
@@ -38,14 +38,6 @@ https://github.com/inobushi3/nekogpt-engine-mate-bridge-plugin
 - Sends dance events when the jukebox plays.
 - Receives Engine Mate events such as pat pat and boundary touch so the NekoGPT chat can react through the active persona.
 
-## What it does not do
-
-- It does not replace the current NekoGPT Live2D/Live3D renderer.
-- It does not start Engine Mate automatically.
-- It does not open external network access.
-- It does not execute remote code inside NekoGPT.
-
-## Checksums
 
 ```text
 NekoGPTBridge-Setup-1.0.1.exe
