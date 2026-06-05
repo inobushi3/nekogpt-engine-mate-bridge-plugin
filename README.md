@@ -1,37 +1,53 @@
 # NekoGPT Engine Mate Bridge Plugin
 
-Plugin opcional para conectar o NekoGPT ao Engine Mate.
+Optional plugin for connecting NekoGPT to Engine Mate as an external avatar.
 
-A bridge usa apenas `localhost`, token de pareamento local e WebSocket.
+NekoGPT does not depend on Engine Mate. The bridge uses only `localhost`, a local pairing token, and WebSocket.
 
-## Como instalar no NekoGPT
+## Install in NekoGPT
 
-1. Abra o NekoGPT.
-2. Entre em `Configuracoes > Plugins`.
-3. Cole este repositorio:
+1. Open NekoGPT.
+2. Go to `Settings > Plugins`.
+3. Paste this repository:
 
 ```text
 https://github.com/inobushi3/nekogpt-engine-mate-bridge-plugin
 ```
 
-4. Clique em `Adicionar`.
-5. Clique em `Ativar` no plugin `Engine Mate Avatar Bridge`.
-6. Entre em `Integracoes > Avatar Externo` para configurar porta, token e testes.
+4. Click `Add`.
+5. Click `Enable` on `Engine Mate Avatar Bridge`.
+6. Go to `Integrations > Engine Mate Plugin` to configure the port, token, and connection test.
 
-## Como instalar no Engine Mate
+## Install in Engine Mate
 
-1. Baixe ou abra o instalador em `dist/NekoGPTBridge-Setup-1.0.1.exe`.
-2. Execute o instalador.
-3. Selecione a pasta raiz do Engine Mate, a mesma pasta onde fica o executavel do Engine Mate.
-4. Abra o Engine Mate.
-5. Abra a janela `NekoGPT Bridge`.
-6. Cole o token exibido no NekoGPT.
-7. Clique em `Conectar`.
+1. Download `NekoGPTBridge-Setup-1.0.1.exe` from the GitHub release.
+2. Run the installer.
+3. Choose the installer language.
+4. Select the Engine Mate root folder, the same folder that contains `MateEngineX.exe`.
+5. Open Engine Mate.
+6. Open the `NekoGPT Bridge` window.
+7. Paste the token shown in NekoGPT.
+8. Click `Connect`.
 
-## O que o plugin faz
+## What the plugin does
 
-- Envia lip sync visual durante TTS.
-- Envia legenda para aparecer acima da cabeca do avatar no Engine Mate.
-- Envia eventos.
-- Envia evento de danca quando a jukebox toca.
-- Recebe eventos do Engine Mate, como pat pat e toque em area sensivel, para o chat reagir pela persona.
+- Shows connected/disconnected status in NekoGPT.
+- Sends visual lip sync during TTS.
+- Sends subtitles above the Engine Mate avatar head.
+- Sends pizza, lollipop, hammer, and perfume interaction events.
+- Sends dance events when the jukebox plays.
+- Receives Engine Mate events such as pat pat and boundary touch so the NekoGPT chat can react through the active persona.
+
+## What it does not do
+
+- It does not replace the current NekoGPT Live2D/Live3D renderer.
+- It does not start Engine Mate automatically.
+- It does not open external network access.
+- It does not execute remote code inside NekoGPT.
+
+## Checksums
+
+```text
+NekoGPTBridge-Setup-1.0.1.exe
+SHA256: F3AA45728D2D9298EEDDBD67F2589CAB336D3B09AEF611E4862CB63F0212C050
+```

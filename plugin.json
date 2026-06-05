@@ -4,9 +4,29 @@
   "id": "engine-mate-avatar-bridge",
   "name": "Engine Mate Avatar Bridge",
   "version": "1.0.1",
-  "description": "Plugin opcional para conectar o NekoGPT ao Engine Mate via WebSocket localhost, sem tornar o Engine Mate dependencia obrigatoria do NekoGPT.",
+  "description": "Optional plugin to connect NekoGPT to Engine Mate through localhost WebSocket without making Engine Mate a required dependency.",
   "author": "inobushi3",
   "homepage": "https://github.com/inobushi3/nekogpt-engine-mate-bridge-plugin",
+  "nameI18n": {
+    "en": "Engine Mate Avatar Bridge",
+    "pt-BR": "Engine Mate Avatar Bridge",
+    "es": "Engine Mate Avatar Bridge",
+    "ru": "Engine Mate Avatar Bridge",
+    "zh-CN": "Engine Mate Avatar Bridge",
+    "ja": "Engine Mate Avatar Bridge",
+    "fr": "Engine Mate Avatar Bridge",
+    "it": "Engine Mate Avatar Bridge"
+  },
+  "descriptionI18n": {
+    "en": "Optional plugin to connect NekoGPT to Engine Mate through localhost WebSocket without making Engine Mate a required dependency.",
+    "pt-BR": "Plugin opcional para conectar o NekoGPT ao Engine Mate via WebSocket localhost, sem tornar o Engine Mate uma dependencia obrigatoria.",
+    "es": "Plugin opcional para conectar NekoGPT a Engine Mate por WebSocket localhost sin convertir Engine Mate en una dependencia obligatoria.",
+    "ru": "Дополнительный плагин для подключения NekoGPT к Engine Mate через localhost WebSocket без обязательной зависимости от Engine Mate.",
+    "zh-CN": "可选插件，用于通过 localhost WebSocket 将 NekoGPT 连接到 Engine Mate，且不会让 Engine Mate 成为必需依赖。",
+    "ja": "localhost WebSocket で NekoGPT を Engine Mate に接続する任意プラグインです。Engine Mate は必須依存になりません。",
+    "fr": "Plugin optionnel pour connecter NekoGPT a Engine Mate via WebSocket localhost sans rendre Engine Mate obligatoire.",
+    "it": "Plugin opzionale per collegare NekoGPT a Engine Mate tramite WebSocket localhost senza rendere Engine Mate una dipendenza obbligatoria."
+  },
   "entry": {
     "kind": "builtin",
     "target": "external-avatar-bridge"
@@ -23,9 +43,9 @@
   },
   "installer": {
     "windows": {
-      "url": "https://github.com/inobushi3/nekogpt-engine-mate-bridge-plugin/raw/main/dist/NekoGPTBridge-Setup-1.0.1.exe",
-      "sha256": "7246EBEB9FB5F70CCCE1DFD4B4F4B80CD56AC3466F70C591398973DA78E60951",
-      "notes": "Execute o instalador e selecione a pasta raiz do Engine Mate. O NekoGPT continua funcionando normalmente sem este instalador."
+      "url": "https://github.com/inobushi3/nekogpt-engine-mate-bridge-plugin/releases/download/v1.0.1/NekoGPTBridge-Setup-1.0.1.exe",
+      "sha256": "F3AA45728D2D9298EEDDBD67F2589CAB336D3B09AEF611E4862CB63F0212C050",
+      "notes": "Run the installer and select the Engine Mate root folder. NekoGPT keeps working normally without this installer."
     }
   },
   "compatibility": {
