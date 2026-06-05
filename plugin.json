@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "type": "nekogpt-plugin",
+  "id": "engine-mate-avatar-bridge",
+  "name": "Engine Mate Avatar Bridge",
+  "version": "1.0.1",
+  "description": "Plugin opcional para conectar o NekoGPT ao Engine Mate via WebSocket localhost, sem tornar o Engine Mate dependencia obrigatoria do NekoGPT.",
+  "author": "inobushi3",
+  "homepage": "https://github.com/inobushi3/nekogpt-engine-mate-bridge-plugin",
+  "entry": {
+    "kind": "builtin",
+    "target": "external-avatar-bridge"
+  },
+  "permissions": [
+    "localhost-websocket",
+    "external-avatar-events",
+    "tts-lip-sync-events",
+    "interaction-events",
+    "local-pairing-token"
+  ],
+  "settings": {
+    "defaultPort": 17878
+  },
+  "installer": {
+    "windows": {
+      "url": "https://github.com/inobushi3/nekogpt-engine-mate-bridge-plugin/raw/main/dist/NekoGPTBridge-Setup-1.0.1.exe",
+      "sha256": "7246EBEB9FB5F70CCCE1DFD4B4F4B80CD56AC3466F70C591398973DA78E60951",
+      "notes": "Execute o instalador e selecione a pasta raiz do Engine Mate. O NekoGPT continua funcionando normalmente sem este instalador."
+    }
+  },
+  "compatibility": {
+    "nekogpt": ">=1.0.1",
+    "engineMate": "Public.Release.X3.3.0-HOTFIX-1 ou build compativel com Doorstop"
+  }
+}
