@@ -1,8 +1,8 @@
 # NekoGPT Engine Mate Bridge Plugin
 
-Plugin opcional para conectar o NekoGPT ao Engine Mate como avatar externo.
+Plugin opcional para conectar o NekoGPT ao Engine Mate.
 
-O NekoGPT continua funcionando sem este plugin. A bridge usa apenas `localhost`, token de pareamento local e WebSocket.
+A bridge usa apenas `localhost`, token de pareamento local e WebSocket.
 
 ## Como instalar no NekoGPT
 
@@ -30,9 +30,8 @@ https://github.com/inobushi3/nekogpt-engine-mate-bridge-plugin
 
 ## O que o plugin faz
 
-- Mostra status conectado/desconectado no NekoGPT.
 - Envia lip sync visual durante TTS.
 - Envia legenda para aparecer acima da cabeca do avatar no Engine Mate.
-- Envia eventos de pizza, pirulito, martelo e perfume.
+- Envia eventos.
 - Envia evento de danca quando a jukebox toca.
 - Recebe eventos do Engine Mate, como pat pat e toque em area sensivel, para o chat reagir pela persona.
