@@ -38,8 +38,3 @@ https://github.com/inobushi3/nekogpt-engine-mate-bridge-plugin
 - Sends dance events when the jukebox plays.
 - Receives Engine Mate events such as pat pat and boundary touch so the NekoGPT chat can react through the active persona.
 
-
-```text
-NekoGPTBridge-Setup-1.0.1.exe
-SHA256: F6EFAD472B454F9F00EC62698DA7A1D33626DAA56F99B6C90159A466D65D985D
-```
