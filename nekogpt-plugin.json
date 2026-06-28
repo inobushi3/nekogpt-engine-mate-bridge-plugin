@@ -1,0 +1,33 @@
+﻿{
+    "id":  "engine_mate_avatar_bridge",
+    "name":  "Engine Mate Avatar Bridge",
+    "version":  "1.0.1",
+    "type":  "plugin",
+    "description":  "Bridge local para Engine Mate Avatar.",
+    "shortDescription":  "Bridge local para Engine Mate Avatar.",
+    "entries":  [
+                    {
+                        "id":  "engine_mate_avatar_bridge-1",
+                        "name":  "engine_mate_avatar_bridge 1",
+                        "description":  ""
+                    }
+                ],
+    "runtime":  {
+                    "kind":  "native",
+                    "nativeAdapter":  "engine_mate_avatar_bridge",
+                    "panel":  "engine_mate_avatar_bridge"
+                },
+    "autoStart":  false,
+    "defaultEnabled":  false,
+    "author":  "NekoGPT",
+    "tags":  [
+
+             ],
+    "github":  {
+                   "owner":  "inobushi3",
+                   "repo":  "nekogpt-engine-mate-bridge-plugin",
+                   "branch":  "main",
+                   "manifestPath":  "nekogpt-plugin.json"
+               },
+    "requiresConfiguration":  true
+}
